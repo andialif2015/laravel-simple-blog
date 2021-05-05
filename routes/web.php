@@ -13,8 +13,7 @@ Route::get('posts/{post:slug}', 'PostController@show');
 Route::get('posts/{post:slug}/edit', 'PostController@edit');
 Route::patch('posts/{post:slug}/update', 'PostController@update');
 
-
-
+Route::delete('posts/{post:slug}/delete', 'PostController@destroy');
 
 Route::view('contact', 'contact');
 Route::view('about', 'about');
