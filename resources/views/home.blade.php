@@ -3,6 +3,6 @@
 @section('title', 'Home')
 @section('content')
     <div class="container">
-        {!! $name !!}
+         home
     </div>
 @endsection
